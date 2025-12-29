@@ -1,0 +1,85 @@
+body {
+    font-family: '微軟正黑體', 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: 		#00FFFF; /* 清爽的淺藍綠色背景 */
+    color: #444;
+}
+
+header {
+    background-color: 	#96FED1; /* 清新的青藍色 */
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+nav {
+    background-color: 		#00AEAE; /* 深一點的青藍色導覽列 */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    display: inline-block;
+    padding: 15px 25px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #00bcd4; /* 懸停時與 Header 同色 */
+}
+
+main {
+    padding: 20px;
+    max-width: 960px;
+    margin: 20px auto;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.08);
+}
+
+main h2 {
+    color: #008ba3;
+    border-bottom: 2px solid #00bcd4;
+    padding-bottom: 8px;
+    margin-bottom: 20px;
+}
+
+.food-item {
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.food-item h3 {
+    color: 	#0080FF; /* 醒目的粉紅色強調食物名稱 */
+    margin-top: 0;
+}
+
+.food-item.featured {
+    border-left: 5px solid #ff9800;
+    background-color: #fffde7; /* 醒目的黃色背景 */
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #008ba3;
+    color: white;
+    margin-top: 20px;
+}
